@@ -1,0 +1,4 @@
+H:\3ahit\Itp\ITP-Project-Pull-Request-and-Issues\Style\Style\obj\Debug\net8.0-windows\MainWindow.g.cs
+H:\3ahit\Itp\ITP-Project-Pull-Request-and-Issues\Style\Style\obj\Debug\net8.0-windows\App.g.cs
+H:\3ahit\Itp\ITP-Project-Pull-Request-and-Issues\Style\Style\obj\Debug\net8.0-windows\Style_MarkupCompile.cache
+H:\3ahit\Itp\ITP-Project-Pull-Request-and-Issues\Style\Style\obj\Debug\net8.0-windows\Style_MarkupCompile.lref

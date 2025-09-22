@@ -1,17 +1,29 @@
 ﻿<Window x:Class="Style.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Style"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <StackPanel Margin="10">
-            <TextBlock Text="ToDo Liste" FontSize="20" FontWeight="Bold"/>
-            <ListBox Name="TodoList" Height="200" Margin="0,10,0,10"/>
-            <TextBox Name="TodoInput" Width="200" Margin="0,0,10,0"/>
-            <Button Content="Hinzufügen" Width="100" Click="AddTodo"/>
+        Title="ToDo Liste" Height="450" Width="800">
+
+    <Grid Background="#F0F0F0">
+        <StackPanel Margin="20">
+            <TextBlock Text="ToDo Liste" FontSize="26" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+            <!-- Aufgabenliste -->
+            <ListBox Name="TodoList" Height="200" Margin="0,10,0,10" Background="White" BorderBrush="#ddd" BorderThickness="1">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal" Margin="5">
+                            <CheckBox Content="{Binding}" Checked="TaskChecked" Unchecked="TaskUnchecked"/>
+                            <Button Content="Delete" Width="80" Margin="10,0,0,0" Click="DeleteTodo"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <!-- Eingabe -->
+            <StackPanel Orientation="Horizontal">
+                <TextBox Name="TodoInput" Width="200" FontSize="16" Margin="0,0,10,0" VerticalAlignment="Center"/>
+                <Button Content="Hinzufügen" Click="AddTodo" Width="115"/>
+            </StackPanel>
         </StackPanel>
     </Grid>
 </Window>
