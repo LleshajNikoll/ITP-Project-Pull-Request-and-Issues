@@ -1,38 +1,41 @@
-﻿using System.Collections.ObjectModel;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
+
 namespace Style
 {
     public partial class MainWindow : Window
     {
-        private ObservableCollection<string> todos;
         public MainWindow()
         {
             InitializeComponent();
-            todos = new ObservableCollection<string>();
-            TodoList.ItemsSource = todos;
         }
+
         private void AddTodo(object sender, RoutedEventArgs e)
         {
-            string newTodo = TodoInput.Text.Trim(); 
+            string task = TodoInput.Text.Trim();
 
-            if (!string.IsNullOrEmpty(newTodo)) 
+            if (!string.IsNullOrEmpty(task))
             {
-                todos.Add(newTodo); 
-                TodoInput.Clear();
+                TodoList.Items.Add(task);  
+                TodoInput.Clear();          
             }
             else
             {
-                MessageBox.Show("Bitte geben Sie ein ToDo ein!", "Fehler", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Bitte eine Aufgabe eingeben!", "Hinweis",
+                                MessageBoxButton.OK, MessageBoxImage.Information);
             }
         }
+
         private void DeleteTodo(object sender, RoutedEventArgs e)
         {
-            Button button = sender as Button;
-            string todoToDelete = button?.DataContext as string;
-            if (todoToDelete != null)
+            Button deleteButton = sender as Button;
+            if (deleteButton != null)
             {
-                todos.Remove(todoToDelete);
+                string task = (deleteButton.DataContext as string);
+                if (task != null && TodoList.Items.Contains(task))
+                {
+                    TodoList.Items.Remove(task);
+                }
             }
         }
     }

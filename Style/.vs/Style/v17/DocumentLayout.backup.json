@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Temp\\ITP-Project-Pull-Request-and-Issues\\Style\\",
+  "WorkspaceRootPath": "H:\\3ahit\\Itp\\ITP-Project-Pull-Request-and-Issues\\Style\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{010675A0-1562-4D36-A158-4E9063A04415}|Style\\Style.csproj|c:\\temp\\itp-project-pull-request-and-issues\\style\\style\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{010675A0-1562-4D36-A158-4E9063A04415}|Style\\Style.csproj|h:\\3ahit\\itp\\itp-project-pull-request-and-issues\\style\\style\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{010675A0-1562-4D36-A158-4E9063A04415}|Style\\Style.csproj|solutionrelative:style\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{010675A0-1562-4D36-A158-4E9063A04415}|Style\\Style.csproj|c:\\temp\\itp-project-pull-request-and-issues\\style\\style\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{010675A0-1562-4D36-A158-4E9063A04415}|Style\\Style.csproj|h:\\3ahit\\itp\\itp-project-pull-request-and-issues\\style\\style\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{010675A0-1562-4D36-A158-4E9063A04415}|Style\\Style.csproj|solutionrelative:style\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,15 +18,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Temp\\ITP-Project-Pull-Request-and-Issues\\Style\\Style\\MainWindow.xaml",
+              "DocumentMoniker": "H:\\3ahit\\Itp\\ITP-Project-Pull-Request-and-Issues\\Style\\Style\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Style\\MainWindow.xaml",
-              "ToolTip": "C:\\Temp\\ITP-Project-Pull-Request-and-Issues\\Style\\Style\\MainWindow.xaml",
+              "ToolTip": "H:\\3ahit\\Itp\\ITP-Project-Pull-Request-and-Issues\\Style\\Style\\MainWindow.xaml",
               "RelativeToolTip": "Style\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-09-22T12:29:57.756Z",
@@ -36,11 +40,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Temp\\ITP-Project-Pull-Request-and-Issues\\Style\\Style\\MainWindow.xaml.cs",
+              "DocumentMoniker": "H:\\3ahit\\Itp\\ITP-Project-Pull-Request-and-Issues\\Style\\Style\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Style\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Temp\\ITP-Project-Pull-Request-and-Issues\\Style\\Style\\MainWindow.xaml.cs",
+              "ToolTip": "H:\\3ahit\\Itp\\ITP-Project-Pull-Request-and-Issues\\Style\\Style\\MainWindow.xaml.cs",
               "RelativeToolTip": "Style\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "OverriddenGroupName": "Style",
               "WhenOpened": "2025-09-22T12:29:55.337Z",
