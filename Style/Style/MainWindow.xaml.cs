@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Diagnostics;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,6 +20,21 @@ namespace Style
         public MainWindow()
         {
             InitializeComponent();
+        }
+        private void AddTaskButton_Click(object sender, RoutedEventArgs e)
+        {
+            string taskText = TaskInput.Text.Trim();
+
+            if (!string.IsNullOrEmpty(taskText))
+            {
+                TaskList.Items.Add(taskText);   // Aufgabe in die Liste einfügen
+                TaskInput.Clear();              // Eingabefeld leeren
+            }
+            else
+            {
+                MessageBox.Show("Bitte eine Aufgabe eingeben.", "Hinweis",
+                    MessageBoxButton.OK, MessageBoxImage.Information);
+            }
         }
     }
 }
